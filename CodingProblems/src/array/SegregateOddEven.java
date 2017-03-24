@@ -4,7 +4,6 @@ package array;
 
 public class SegregateOddEven {
 	
-	
 	static void printArray(int AB[]){
 		
 		System.out.println( "printarray ");
@@ -12,7 +11,6 @@ public class SegregateOddEven {
 			System.out.print(AB[i] + " ");
 		}
 		System.out.println();
-		
 	}
 	
 	static void segregateOddEven1(int A[]){
@@ -39,11 +37,7 @@ public class SegregateOddEven {
 				right--;
 				//printArray(A);
 			}
-			
-			
 		}
-		
-		
 		//A[2] = 100;
 		
 	}
@@ -57,6 +51,5 @@ public class SegregateOddEven {
 		segregateOddEven1(array1);
 		
 		printArray(array1);
-	
 	}
 }
