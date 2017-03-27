@@ -45,7 +45,7 @@ public class SegregateOddEven {
 		
 		int array1[] = new int[50];
 		
-		for(int i = 0; i < 50; ++i){
+		for(int i = 0; i < array1.length ; ++i){
 			array1[i] = (int)(Math.random()*50+1);
 		}
 		
